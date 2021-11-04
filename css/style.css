@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+video{
+
+  
+   width: 100%;
+    height: 550px;
+    background-color: black;
+    border-top: 3px solid white;
+}
+
+
+.menu{
+    padding-top: 10px;
+    background-color:rgb(29, 50, 114);
+    /* border: 2px solid red; */
+    width:100%;
+    height: 90px;
+    /* z-index: index -1;; */
+ 
+}
+.menu .icons{
+    float: right;
+    color: white;
+    /* border: 2px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+/* .header{
+    background-color: darkgreen;
+    width: 100%;
+    height: 10px;
+  
+} */
+
+.social-menu li{
+    list-style-type: none;
+    display: inline;
+    
+}
+
+
+.menu-list{
+    
+    list-style-type:none;
+    /* border: 2px solid red; */
+   
+}
+.menu-list #logo{
+    float: left;
+    
+    margin-left: 15px;
+    
+}
+.menu-list li{
+    float: right;
+    display: block;
+    color:red;
+    font-weight: bolder;
+    font-size: 20px;
+   
+    
+}
+.menu .icons i{
+    float: right;
+    padding: 5px;
+    font-size:14px;
+}
+.menu .icons i:hover{
+    color: red;
+    font-size:20px;
+}
+
+.menu .icons a{
+    color:rgb(135, 135, 250);
+
+}
+
+
+.menu-list .menu-a{
+    
+    text-decoration: none;
+    padding: 10px;  
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.menu-list .menu-a:hover{
+    background-color:white;
+    border-radius: 5px;
+    text-decoration: none;
+    color:blue;
+    transition: ease-in-out;
+}
+.about-h2{
+    text-align: center;
+    margin-top: 2em;
+    
+}
+.center-h2{
+text-align: center;
+}
+.about-us{
+    margin: 3em;
+}
+.about-us p{
+    /* border: 2px solid red; */
+    margin: 3em 2em 1em 2em;
+   text-indent: 50px;
+    text-align: justify;
+}
+.col-sm-8{
+    border: 3px solid rgb(250, 246, 246);
+    background-color: rgb(188, 188, 199);
+    border-radius: 15px;;
+    margin:3em 3em 2em -3em; 
+    
+
+}
+.col-sm-4 post{
+    border: 2px solid red;
+    float:right;
+    text-align: center;
+}
+.post-list li{
+    text-align: justify;
+    list-style-type: none;
+    font-size: 14px;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    font-weight: bold;
+}
+@keyframes example {
+   
+    from {top: 0px; color:red;}
+  to {color:blue;bottom: 200px;}
+  
+}
+.post{
+    margin-top: 3em;
+}
+.post-h2{
+    background-color:rgb(29, 50, 114);
+    color:white
+}
+.col-sm-4 .card{
+    margin:3px;
+}
+
+.col-sm-8 .subscribe{
+    color:navy;
+    font-weight: bolder;
+
+}
+.subscribe_bttn{
+    background-color: navy;
+    color: white;
+    padding:3px;
+}
+
+.footer{
+    
+     margin-top: 2em;
+    text-align: center;
+    padding-top:1em
+}
+
+/*Login form*/
+
+form{
+    position:absolute;
+    top:10em;
+    left:35em;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 16px;
+    width: 400px;
+    height: 450px;
+    float: left;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+.login-head{
+    text-align: center;
+    margin: 15px 0px 35px;
+    
+}
+.login-hr{
+    border: 4px solid navy;
+    border-radius: 5px;
+}
+
+.login-bttn{
+    box-shadow: 0px 0px 5px black; 
+    background-color:navy;
+    width:100%;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 5px;
+    color: white;
+    opacity:0.9;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.login-bttn:hover{
+    opacity: 1;
+    border: 2px solid navy;
+    cursor: pointer;
+}
+label{
+    padding: 5px;
+    margin: 5px;
+}
+.forgot-pass{
+    padding-right: 35px;
+    
+}
+.sign-up {
+   padding-left: 280px;
+}
+.login-container input[type=text],input[type=password]{
+     width: 100%; 
+    border:none;
+    border-bottom:2px solid black;
+    background-color: #f1f1f1;
+    padding: 4px;
+    margin: 4px;
+    /* background-color: green; */
+}
+
+input[type=text]:focus,input[type=password]:focus{
+    background-color: #ddd;
+    border:none;
+    border-bottom:2px solid black;
+}
+
+
+/* districts14 */
+.card-text{
+    text-align: center;
+}
+.card{
+    height: 260px;
+    padding : 8px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 25px;
+}
+.card-img-top{
+    height:200px;
+}
+.col-sm-10{
+    background-color:black;
+    /* border: 1px solid red; */
+    margin-left: 6em;
+}
+
+.card:hover{
+    /* box-shadow: 5px 10px 8px #888888; */
+    box-shadow: 5px 10px 8px white;
+    border: 2px solid gray;
+}
+
+
+/* districts14 */
+.cotainer-pic{
+    border:2px solid wheat;
+    width: 60%;
+    height: 300px;
+    position: relative;
+    top:1em;
+    left: 19em;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    
+}
+/* .cotainer-pic:hover{
+    border-radius: 20px;;
+} */
+.pic-content {
+    padding-top: 2em;
+text-align: justify;
+text-indent: 50px;
+margin-right: 1em;
+}
+.kasargod-pic{
+   
+    margin-bottom: 25px;
+    padding: .5em;
+    border:1px solid lavender;
+    height: 300px;
+    width: 100%; 
+
+}
+.kasargod-pic:hover{
+    border-radius: 20px;
+    border: 3px solid grey;
+}
+.col{
+    height: 300px;
+    width: 90%; 
+}
+.attaction-head{
+    position: absolute;
+    top:18em;
+    left:2.5em;
+    width: 100%;
+    text-align: center;
+    font-size: 21px;
+    color: navy;
+    font-weight: bolder;
+}
+.welcome-head{
+    position: relative;
+    top:-1.5em;
+    text-align: center;
+    height: 50px;
+   opacity: 0.7;
+   background-color: black;
+   color:white;
+}
+.kasargod-head-pic{
+    border: 2px solid red;
+background-image: url("/images/website-banner.jpg");
+width: 100%;
+height: 140px;
+padding: 14px;
+}
+
+
+.attr-pic{
+   
+    position: absolute;
+    top: 40em;
+    left:30em;
+    width: 40%;
+    height:310px;
+    padding: 3px;
+   
+}
+.attr-pic:hover{
+    
+    
+    border:3px solid lightslategrey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+/* Sign up */
+
+
+.form-size{
+    top:5em;
+    height: 700px;
+    width:500px;
+    padding: 16px;
+
+}
+.cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  .cancelbtn {
+      color: white;
+    padding: 7px 10px;
+    background-color: #f44336;
+    box-shadow: 0px 0px 5px black; 
+opacity: 0.9;
+  }
+  .cancelbtn:hover{
+      opacity:1;
+  }
