@@ -12,6 +12,7 @@ video{
     height: 550px;
     background-color: black;
     border-top: 3px solid white;
+    object-fit: cover;
 }
 
 
