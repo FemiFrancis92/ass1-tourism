@@ -14,15 +14,15 @@ video{
     border-top: 3px solid white;
     object-fit: cover;
 }
-.bg-text{
+.p-bg-text{
     position:absolute;
     top: 10em;
     margin-left: 3em;
     font-size: 240%;
     color: white;
     text-transform: uppercase;
-    text-shadow: 1px 1px 1px rgb(39, 37, 37);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 1px 3px rgb(39, 37, 37);
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .menu{
