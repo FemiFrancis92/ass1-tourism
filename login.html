@@ -13,20 +13,24 @@
         <img src="./images/logo.jpg"  alt="logo"/>
 <div class="login-header-img">
             
-        <form>
+        <form action="index.html" onsubmit = "return validate()">
             <div class="login-container">
             <div class="login-head">
                <h1>Login</h1>
                <br>
                 <hr class="login-hr">
             </div>
-                <label for="user"><b>Username</b></label><br>
-                <input type="text" name="username" Placeholder="Enter Username"><br><br>
-                <label for="pass"><b>Password</b></label><br>
-                <input type="password" name="password" Placeholder="Enter Password"><br><br>
-                <button class="login-bttn" name="login_button" type="submit">Login</button><br><br>
+                <label for="email" ><b>Email</b></label><br>
+                <input type="email" id="email" Placeholder="Enter Email">
+                <div id="email-error" class="errorlabel"></div>
+                <br>
+                <label for="password"><b>Password</b></label><br>
+                <input type="password" id="password" Placeholder="Enter Password">
+                <div id="password-error" class="errorlabel"></div>
+                <br>
+                <button class="login-bttn" id="login_button" type="submit">Login</button><br><br>
                 <input type="checkbox" checked="checked" name="remember">
-                <label for="remem"><b>Remember me</b></label>
+                <label><b>Remember me</b></label>
             </div>
             <div class="login-container"><br>
                 <a href="#" class="forgot-pass">Forgot password</a>
@@ -37,5 +41,6 @@
             </div>
         </form>
     </div>
+    <script src="/js/login.js"></script>
 </body>
 </html>
