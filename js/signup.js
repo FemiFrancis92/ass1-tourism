@@ -103,18 +103,13 @@ function validatefn() {
         //     setErrorMsg("psw",message);
         //     errorOccurred = true;
         // }
+        document.getElementById("strength-psw").style.display="flex";
         if(password.value.trim() == "") {
             message="Password can not be blank";
             setErrorMsg("psw",message);
             errorOccurred = true;    
         }
-        else{
-            message="Poor Password. Length should be atleast 8 and must contain digits and special chars";
-            
-            color = "red";
-            setErrorMsg("psw",message);
-            setErrorPsw("poor-pass",color);
-            errorOccurred = true; 
+        else{ 
             if(password.value.length>=8)  {
                 if (password.value.match(regInteger) && password.value.match(regChar) && password.value.match(regSpecialChar)) {
                     message="Strong Password";
@@ -130,8 +125,22 @@ function validatefn() {
                 setErrorMsg("psw",message);
                 setErrorPsw("medium-pass",color);
                 errorOccurred = true;
+                } else {
+                    message="Poor Password. Length should be atleast 8 and must contain digits and special chars";
+            
+                    color = "red";
+                    setErrorMsg("psw",message);
+                    setErrorPsw("poor-pass",color);
+                    errorOccurred = true;
                 }
-            } 
+            } else {
+                message="Poor Password. Length should be atleast 8 and must contain digits and special chars";
+            
+                color = "red";
+                setErrorMsg("psw",message);
+                setErrorPsw("poor-pass",color);
+                errorOccurred = true;
+            }
         }
 
 
