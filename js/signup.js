@@ -17,9 +17,6 @@ function validatefn() {
         let regEmail = /^([A-Za-z0-9\.-_]+)@([A-Za-z0-9]+)\.([a-z]{2,3})(\.[a-z]{2,3})?$/;
         let regMobile1 = /[0-9]{10}/;
         let regMobile2 = /([0-9]{3}[- .]){2}([0-9]{4})/;
-        // let regPswPoor = /[a-zA-Z]/;
-        // let regPswMedium = /[[a-zA-Z0-9]+([a-zA-Z!,@,#,$,%,^,&,*,?,_,~,-,(,)])+]/;
-        // let regPswStrong = /([a-zA-Z0-9!,@,#,$,%,^,&,*,?,_,~,-,(,)])/;
 
         let regChar=/[a-zA-Z]+/;
         let regInteger=/\d+/;
